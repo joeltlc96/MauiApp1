@@ -3,33 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.MainPage">
 
+    <!-- Fondo y margen general -->
+    <ContentPage.BackgroundColor>
+        <Color>#f0f4f8</Color>
+    </ContentPage.BackgroundColor>
+
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
+        <VerticalStackLayout Padding="40,20" Spacing="20">
+
+            <!-- Imagen del bot -->
             <Image
                 Source="dotnet_bot.png"
-                HeightRequest="185"
+                HeightRequest="200"
                 Aspect="AspectFit"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Margin="0,0,0,20"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
+            <!-- Título principal -->
             <Label
-                Text="Hello, World!"
+                Text="Somos los mas rapido!"
                 Style="{StaticResource Headline}"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#0078D4"
                 SemanticProperties.HeadingLevel="Level1" />
 
+            <!-- Subtítulo -->
             <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
+                Text=" .NET Multi-platform App UI"
                 Style="{StaticResource SubHeadline}"
+                FontSize="18"
+                HorizontalOptions="Center"
+                TextColor="#4A4A4A"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
+            <!-- Botón -->
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Click me"
+                BackgroundColor="#0078D4"
+                TextColor="White"
+                FontAttributes="Bold"
+                Padding="15,10"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="FillAndExpand"
+                Margin="0,20,0,0"
+                CornerRadius="25" />
+
         </VerticalStackLayout>
     </ScrollView>
 
