@@ -1,0 +1,1 @@
+C:\Joel_Granda\MauiApp1\MauiApp1\MauiApp1.csproj;x64
