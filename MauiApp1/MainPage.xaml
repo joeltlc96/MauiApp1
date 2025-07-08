@@ -29,7 +29,6 @@
                 TextColor="#0078D4"
                 SemanticProperties.HeadingLevel="Level1" />
 
-            <!-- Subtítulo -->
             <Label
                 Text=" .NET Multi-platform App UI"
                 Style="{StaticResource SubHeadline}"
@@ -39,7 +38,6 @@
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
-            <!-- Botón -->
             <Button
                 x:Name="CounterBtn"
                 Text="Clikeameeee!"
