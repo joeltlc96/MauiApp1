@@ -18,8 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,14 +49,10 @@
               "RelativeDocumentMoniker": "MauiApp1\\MainPage.xaml",
               "ToolTip": "C:\\Joel_Granda\\MauiApp1\\MauiApp1\\MainPage.xaml",
               "RelativeToolTip": "MauiApp1\\MainPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-04T01:46:41.349Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
